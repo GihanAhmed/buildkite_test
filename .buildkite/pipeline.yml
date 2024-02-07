@@ -1,1 +1,2 @@
-echo "this is my first pipeline"
+steps:
+  - command: echo "this is my first pipeline"
