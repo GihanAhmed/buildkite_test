@@ -1,4 +1,3 @@
 steps:
   - command: echo "hopefilly this works"
-  - "chmod 440 /var/lib/buildkite-agent/README.md'
-
+  - "chmod 440 /var/lib/buildkite-agent/README.md"
