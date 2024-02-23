@@ -1,3 +1,5 @@
 steps:
-  - command: echo "hopefilly this works"
-  - "chmod 440 /var/lib/buildkite-agent/README.md"
+  - name: "Validate"
+    commands: 
+    - echo "hopefilly this works"
+    - "chmod 440 /var/lib/buildkite-agent/README.md"
